@@ -84,6 +84,13 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [m.battery(), m.commandsOnOff(), m.commandsWindowCovering()],
     },
     {
+        zigbeeModel: ['Ysia 1 HP Zigbee 5163664A'],
+        model: 'Ysia 1 HP Zigbee',
+        vendor: 'SOMFY',
+        description: 'Ysia 1 channel blinds remote',
+        extend: [m.deviceEndpoints({"endpoints":{"1":1,"232":232}}), m.battery(), m.commandsOnOff(), m.commandsWindowCovering()],
+    },
+    {
         zigbeeModel: ["1822647"],
         model: "1822647A",
         vendor: "SOMFY",
